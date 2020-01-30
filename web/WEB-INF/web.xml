@@ -3,4 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <context-param>
+        <param-name>DRV</param-name>
+        <param-value>oracle.jdbc.OracleDriver</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>URL</param-name>
+        <param-value>jdbc:oracle:thin:@15.164.233.149:1521:XE</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>USR</param-name>
+        <param-value>scott</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>PWD</param-name>
+        <param-value>tiger</param-value>
+    </context-param>
 </web-app>

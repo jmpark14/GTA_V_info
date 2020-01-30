@@ -19,17 +19,19 @@
                     <img src="https://media.rockstargames.com/rockstargames-newsite/uploads/4a250d786f9ac0be471adec170cd68ea8713247a.jpg" width="100%">
                 </a>
             </div>
-
-            <div class="col-md-4" style="border: 1px solid gray;">
-                <a
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <h3><strong>빠른 메뉴</strong></h3>
             </div>
-            <div class="col-md-4">
-
+        </div>
+        <div class="row" style="margin: 2% 0 2% 0">
+            <div class="col-md text-center">
+                <button type="button" class="btn btn-outline-light" style="margin-right: 10%; font-size: 50px" id="">레이아웃1</button>
+                <button type="button" class="btn btn-outline-light" style="margin-right: 10%; font-size: 50px" id="">레이아웃2</button>
+                <button type="button" class="btn btn-outline-light" style="font-size: 50px" id="">레이아웃3</button>
             </div>
-            <div class="col-md-4">
-
-            </div>
-
         </div>
     </div>
     <%@include file="layout/footer.jsp"%>
