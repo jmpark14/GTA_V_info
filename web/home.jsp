@@ -11,33 +11,28 @@
 <body>
 
 <div class="container" >
-    <header>
-        <div class="row"> <!-- 상단로고/ 로그인, 회원가입 부분-->
-            <div class="col-md-8">
-                <h1>
-                    <a href="home.jsp" style="color: #000000">Grand Theft Auto V Information</a>
-                </h1>
+    <%@include file="layout/header.jsp"%>
+    <div id="main" style="margin-top: 2%">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://www.rockstargames.com/kr/newswire/article/61357/GTA-Online-and-Red-Dead-Online-Have-a-Record-Breaking-Holiday-Season">
+                    <img src="https://media.rockstargames.com/rockstargames-newsite/uploads/4a250d786f9ac0be471adec170cd68ea8713247a.jpg" width="100%">
+                </a>
             </div>
-            <div class="col-md-4 text-right" style="margin: 10px 0;">
-                <button class="btn btn-outline-danger" type="button" data-toggle="modal" data-target="#loginmodal">로그인</button>
-                <button class="btn btn-outline-primary" type="button" id="joinbtn">회원가입</button>
-            </div>
-        </div>
 
-    </header>
-    <div id="main">
-        <div>
-            <p>메인 부분</p>
+            <div class="col-md-4" style="border: 1px solid gray;">
+                <a
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+
         </div>
     </div>
-
-    <footer>
-        <p class="text-right card card-body bg-light" style="padding:10px 5px; border: 1px solid silver">
-            <small>
-                &copy; Grand Theft Auto V Information. Powered by jmbuddy. All Rights Reserved.
-            </small>
-        </p>
-    </footer>
+    <%@include file="layout/footer.jsp"%>
 </div>
 
 
