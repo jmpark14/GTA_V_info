@@ -38,7 +38,7 @@
 
     //게시글이 30개를 넘기면 페이지를 ++함
     int perPage = 20;
-    int totalPage = bdcnt / perPage
+    int totalPage = bdcnt / perPage;
     if (bdcnt % perPage > 0) {
         ++totalPage;
     }
@@ -96,6 +96,11 @@
 <!DOCTYPE html>
 <html>
 <head lang="ko">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src = "https://use.fontawesome.com/2350369b5c.js"></script>
     <title>Grand Theft Auto V - 자유게시판</title>
 </head>
 <body>
