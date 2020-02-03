@@ -15,22 +15,22 @@
     <nav class="nav navbar-expand-md navbar-dark bg-dark">
         <ul class="nav navbar-nav nav-fill w-100">
             <li class="nav-item">
-                <a class="nav-link" href="home.jsp">프로젝트 소개</a>
+                <a class="nav-link" href="../home.jsp">프로젝트 소개</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about/about.jsp">about</a>
+                <a class="nav-link" href="../about/about.jsp">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="board/list.jsp">자유 게시판</a>
+                <a class="nav-link" href="../board/list.jsp">자유 게시판</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tip_board/list.jsp">팁&공략</a>
+                <a class="nav-link" href="../tip_board/list.jsp">팁&공략</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="member/list.jsp">멤버모집</a>
+                <a class="nav-link" href="../member/list.jsp">멤버모집</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="equip/list.jsp">장비공간</a>
+                <a class="nav-link" href="../equip/list.jsp">장비공간</a>
             </li>
         </ul>
     </nav>

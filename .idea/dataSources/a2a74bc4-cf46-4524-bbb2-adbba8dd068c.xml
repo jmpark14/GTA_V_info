@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@15.164.233.149">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="SCOTT">
+      <ObjectId>49</ObjectId>
+      <IntrospectionTimestamp>2020-02-03.20:02:08</IntrospectionTimestamp>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.09:51:06</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="JM">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="17" parent="2" name="BDSQ">
+      <ObjectId>29869</ObjectId>
+      <CreatedTimestamp>2020-01-16.14:01:51</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.14:01:51</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="18" parent="2" name="BDV12SQ">
+      <ObjectId>26319</ObjectId>
+      <CreatedTimestamp>2019-12-05.11:46:31</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-05.11:46:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="19" parent="2" name="BOARDFILESQ">
+      <ObjectId>29872</ObjectId>
+      <CreatedTimestamp>2020-01-16.17:26:28</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.17:26:28</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="20" parent="2" name="COMMENTSSQ">
+      <ObjectId>29864</ObjectId>
+      <CreatedTimestamp>2020-01-16.02:48:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.02:48:23</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="21" parent="2" name="MEMBERSQ">
+      <ObjectId>29605</ObjectId>
+      <CreatedTimestamp>2020-01-13.12:18:04</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-13.12:18:04</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="2" name="RVDKDSQ">
+      <ObjectId>27395</ObjectId>
+      <CreatedTimestamp>2019-12-18.18:48:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-18.18:48:19</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="2" name="SQEMPMNO">
+      <ObjectId>22557</ObjectId>
+      <CreatedTimestamp>2019-10-21.19:38:33</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-21.19:38:33</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="2" name="SQPID">
+      <ObjectId>22738</ObjectId>
+      <CreatedTimestamp>2019-10-23.17:09:02</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-23.17:09:02</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="2" name="SQPSNGID">
+      <ObjectId>22733</ObjectId>
+      <CreatedTimestamp>2019-10-23.16:28:38</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-23.16:28:38</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="2" name="SQSJMNO">
+      <ObjectId>22646</ObjectId>
+      <CreatedTimestamp>2019-10-22.16:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-22.16:20:36</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="27" parent="2" name="BOARD">
+      <ObjectId>29865</ObjectId>
+      <CreatedTimestamp>2020-01-16.14:01:10</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.14:01:10</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="2" name="BOARDCOMMENT">
+      <ObjectId>29775</ObjectId>
+      <CreatedTimestamp>2020-01-15.19:54:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-17.22:48:49</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="2" name="BOARDFILE">
+      <ObjectId>29870</ObjectId>
+      <CreatedTimestamp>2020-01-16.17:25:14</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-17.22:45:58</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="2" name="BOARDV12">
+      <ObjectId>26315</ObjectId>
+      <CreatedTimestamp>2019-12-05.11:42:27</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-05.11:42:27</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="2" name="BONUS">
+      <ObjectId>20829</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="2" name="DEPT">
+      <ObjectId>20825</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="2" name="EMP">
+      <ObjectId>20827</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="2" name="EMPLOYEE">
+      <ObjectId>22558</ObjectId>
+      <CreatedTimestamp>2019-10-21.19:47:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-21.19:47:54</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="2" name="EMPLOYEE2">
+      <ObjectId>22642</ObjectId>
+      <CreatedTimestamp>2019-10-22.10:58:47</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-22.10:58:47</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="2" name="FULLBOOKS">
+      <ObjectId>28098</ObjectId>
+      <CreatedTimestamp>2019-12-26.16:27:09</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-26.16:27:09</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="2" name="GTABOARD">
+      <ObjectId>31025</ObjectId>
+      <CreatedTimestamp>2020-01-30.20:11:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.20:11:20</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="2" name="MEMBER">
+      <ObjectId>31023</ObjectId>
+      <CreatedTimestamp>2020-01-30.16:08:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.16:08:23</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="2" name="MEMBERS15">
+      <ObjectId>26313</ObjectId>
+      <CreatedTimestamp>2019-12-05.10:57:31</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-05.10:57:31</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="2" name="NEWBOOKS">
+      <ObjectId>28097</ObjectId>
+      <CreatedTimestamp>2019-12-26.15:43:06</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-26.15:43:06</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="2" name="RVDKDBOARD">
+      <ObjectId>27226</ObjectId>
+      <CreatedTimestamp>2019-12-16.18:56:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-15.18:46:36</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="2" name="RVDODMEMBER">
+      <ObjectId>27224</ObjectId>
+      <CreatedTimestamp>2019-12-16.14:50:36</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-13.13:03:42</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="2" name="SALGRADE">
+      <ObjectId>20830</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="2" name="SUNGJUK">
+      <ObjectId>22644</ObjectId>
+      <CreatedTimestamp>2019-10-22.16:20:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-22.16:20:29</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="2" name="SUNGJUKSJ">
+      <ObjectId>31390</ObjectId>
+      <CreatedTimestamp>2020-02-03.09:51:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.09:51:06</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="2" name="SUNGJUKSP">
+      <ObjectId>31112</ObjectId>
+      <CreatedTimestamp>2020-01-31.17:17:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-31.17:17:58</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="2" name="THUMPSUP">
+      <ObjectId>29958</ObjectId>
+      <CreatedTimestamp>2020-01-17.13:29:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-17.22:38:07</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="2" name="TITANIC">
+      <ObjectId>22736</ObjectId>
+      <CreatedTimestamp>2019-10-23.16:59:27</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-23.17:02:07</ModifiedTimestamp>
+    </table>
+    <column id="49" parent="27" name="NUM">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="27" name="USERNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="51" parent="27" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="52" parent="27" name="TITLE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="53" parent="27" name="MEMO">
+      <Position>5</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="54" parent="27" name="TIMES">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="55" parent="27" name="HIT">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="56" parent="27" name="REFER">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="57" parent="27" name="INDENT">
+      <Position>9</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="58" parent="27" name="SETP">
+      <Position>10</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="59" parent="27" name="SYS_C008123">
+      <ObjectId>29868</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-01-16.14:01:10</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.14:01:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>NUM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="27" name="SYS_C008123">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-01-16.14:01:10</ModifiedTimestamp>
+      <ColNames>NUM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008123</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="28" name="BRDNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="28" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="28" name="COMMENT_CONTENT">
+      <Position>3</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="64" parent="28" name="REGDATE">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="65" parent="28" name="CMTNO">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="28" name="BOARDCOMMENT_PK">
+      <ObjectId>29965</ObjectId>
+      <CreatedTimestamp>2020-01-17.22:48:22</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-17.22:48:22</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CMTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="28" name="BOARDCOMMENT_PK">
+      <ModifiedTimestamp>2020-01-17.22:48:22</ModifiedTimestamp>
+      <ColNames>CMTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BOARDCOMMENT_PK</UnderlyingIndexName>
+    </key>
+    <foreign-key id="68" parent="28" name="FK_COMMENT">
+      <ModifiedTimestamp>2020-01-17.22:48:49</ModifiedTimestamp>
+      <ColNames>BRDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>RVDKDBOARD</RefTableName>
+      <RefKeyName>SYS_C007790</RefKeyName>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="69" parent="29" name="FILENUM">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="29" name="BRDNO">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="71" parent="29" name="FILENAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="72" parent="29" name="FILELOCATION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <index id="73" parent="29" name="BOARDFILE_PK">
+      <ObjectId>29871</ObjectId>
+      <CreatedTimestamp>2020-01-16.17:25:14</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-16.17:25:14</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>FILENUM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="29" name="BOARDFILE_PK">
+      <ModifiedTimestamp>2020-01-16.17:25:14</ModifiedTimestamp>
+      <ColNames>FILENUM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BOARDFILE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="75" parent="29" name="FK_FILE">
+      <ModifiedTimestamp>2020-01-17.22:45:58</ModifiedTimestamp>
+      <ColNames>BRDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>RVDKDBOARD</RefTableName>
+      <RefKeyName>SYS_C007790</RefKeyName>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="76" parent="30" name="BDNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="30" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="30" name="USERID">
+      <Position>3</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="30" name="VIEWS">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="80" parent="30" name="CONTENTS">
+      <Position>5</Position>
+      <DataType>CLOB|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="30" name="REGDATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate  
+</DefaultExpression>
+    </column>
+    <index id="82" parent="30" name="SYS_C007640">
+      <ObjectId>26318</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-05.11:42:27</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-05.11:42:27</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>BDNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="30" name="SYS_C007640">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-05.11:42:27</ModifiedTimestamp>
+      <ColNames>BDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007640</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="31" name="ENAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="85" parent="31" name="JOB">
+      <Position>2</Position>
+      <DataType>VARCHAR2(9)|0</DataType>
+    </column>
+    <column id="86" parent="31" name="SAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="87" parent="31" name="COMM">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="88" parent="32" name="DEPTNO">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="32" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(14)|0</DataType>
+    </column>
+    <column id="90" parent="32" name="LOC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(13)|0</DataType>
+    </column>
+    <index id="91" parent="32" name="PK_DEPT">
+      <ObjectId>20826</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DEPTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="32" name="PK_DEPT">
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_DEPT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="33" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="33" name="ENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="95" parent="33" name="JOB">
+      <Position>3</Position>
+      <DataType>VARCHAR2(9)|0</DataType>
+    </column>
+    <column id="96" parent="33" name="MGR">
+      <Position>4</Position>
+      <DataType>NUMBER(4)|0</DataType>
+    </column>
+    <column id="97" parent="33" name="HIREDATE">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="98" parent="33" name="SAL">
+      <Position>6</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="99" parent="33" name="COMM">
+      <Position>7</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="100" parent="33" name="DEPTNO">
+      <Position>8</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <index id="101" parent="33" name="PK_EMP">
+      <ObjectId>20828</ObjectId>
+      <CreatedTimestamp>2019-09-30.10:10:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="33" name="PK_EMP">
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EMP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="103" parent="33" name="FK_DEPTNO">
+      <ModifiedTimestamp>2019-09-30.10:10:30</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>PK_DEPT</RefKeyName>
+    </foreign-key>
+    <column id="104" parent="34" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="34" name="EMP_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="106" parent="34" name="FNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="34" name="LNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="34" name="EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="34" name="PHONE">
+      <Position>6</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="34" name="HDATE">
+      <Position>7</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="34" name="JOB_ID">
+      <Position>8</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="34" name="SALARY">
+      <Position>9</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="34" name="COMM">
+      <Position>10</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="34" name="MGR_ID">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="34" name="DEP_ID">
+      <Position>12</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="34" name="REGDATE">
+      <Position>13</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+    <index id="117" parent="34" name="SYS_C007215">
+      <ObjectId>22559</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-21.19:47:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-21.19:47:54</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="34" name="SYS_C007215">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-10-21.19:47:54</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007215</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="119" parent="35" name="EMP_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="35" name="FNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="35" name="LNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="35" name="EMAIL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="35" name="PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="35" name="HDATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="35" name="JOB_ID">
+      <Position>7</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="126" parent="35" name="SALARY">
+      <Position>8</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+    </column>
+    <column id="127" parent="35" name="COMM">
+      <Position>9</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="128" parent="35" name="MGR_ID">
+      <Position>10</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="129" parent="35" name="DEP_ID">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="130" parent="35" name="SYS_C007225">
+      <ObjectId>22643</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-22.10:58:47</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-22.10:58:47</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>EMP_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="131" parent="35" name="SYS_C007225">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-10-22.10:58:47</ModifiedTimestamp>
+      <ColNames>EMP_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007225</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="132" parent="36" name="BRAND">
+      <Position>1</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="133" parent="36" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="134" parent="36" name="WRITER">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="135" parent="36" name="PUBDATE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="136" parent="36" name="PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="137" parent="37" name="BRDNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="37" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="37" name="USERID">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="37" name="VIEWS">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="37" name="THUMBS">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="37" name="TAGS">
+      <Position>6</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="143" parent="37" name="REGDATE">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="144" parent="37" name="CONTENTS">
+      <Position>8</Position>
+      <DataType>CLOB|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="145" parent="37" name="SYS_C008331">
+      <ObjectId>31028</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-01-30.20:11:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.20:11:20</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>BRDNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="146" parent="37" name="SYS_C008331">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-01-30.20:11:20</ModifiedTimestamp>
+      <ColNames>BRDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008331</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="147" parent="38" name="MNO">
+      <Position>1</Position>
+      <DataType>NUMBER(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="38" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="38" name="PASSWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="38" name="NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="38" name="EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="152" parent="38" name="SYS_C008325">
+      <ObjectId>31024</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-01-30.16:08:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.16:08:23</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>MNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="153" parent="38" name="SYS_C008325">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-01-30.16:08:23</ModifiedTimestamp>
+      <ColNames>MNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008325</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="154" parent="39" name="MBNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="39" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="39" name="PASSWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(18)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="39" name="REFDATE">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate  
+</DefaultExpression>
+    </column>
+    <index id="158" parent="39" name="SYS_C007636">
+      <ObjectId>26314</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-05.10:57:31</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-05.10:57:31</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>MBNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="159" parent="39" name="SYS_C007636">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-05.10:57:31</ModifiedTimestamp>
+      <ColNames>MBNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007636</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="160" parent="40" name="TIT">
+      <Position>1</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="161" parent="40" name="AUTH">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="162" parent="41" name="BRDNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="41" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="164" parent="41" name="TITLE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="41" name="CONTENTS">
+      <Position>4</Position>
+      <DataType>CLOB|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="41" name="VIEWS">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="167" parent="41" name="THUMBS">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="168" parent="41" name="TAGS">
+      <Position>7</Position>
+      <DataType>VARCHAR2(16)|0</DataType>
+    </column>
+    <column id="169" parent="41" name="REGDATE">
+      <Position>8</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+    <column id="170" parent="41" name="COMMENTS">
+      <Position>9</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="171" parent="41" name="FILENAME">
+      <Position>10</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="172" parent="41" name="SYS_C007790">
+      <ObjectId>27229</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-16.18:56:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-16.18:56:08</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>BRDNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="173" parent="41" name="SYS_C007790">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-16.18:56:08</ModifiedTimestamp>
+      <ColNames>BRDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007790</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="174" parent="42" name="MBRNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="42" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="42" name="PASSWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="42" name="NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="178" parent="42" name="COUNTRY">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="42" name="STATEMENT">
+      <Position>6</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="42" name="ADDR1">
+      <Position>7</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="181" parent="42" name="ADDR2">
+      <Position>8</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="182" parent="42" name="EMAIL">
+      <Position>9</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="42" name="REGDATE">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+    <column id="184" parent="42" name="TEL1">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="185" parent="42" name="TEL2">
+      <Position>12</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="186" parent="42" name="SYS_C007786">
+      <ObjectId>27225</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-16.14:50:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-16.14:50:36</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>MBRNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="187" parent="42" name="SYS_C007786">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-16.14:50:36</ModifiedTimestamp>
+      <ColNames>MBRNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007786</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="188" parent="43" name="GRADE">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="189" parent="43" name="LOSAL">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="190" parent="43" name="HISAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="191" parent="44" name="SJNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="192" parent="44" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="193" parent="44" name="KOR">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="194" parent="44" name="ENG">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="195" parent="44" name="MAT">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="196" parent="44" name="TOT">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="197" parent="44" name="MEAN">
+      <Position>7</Position>
+      <DataType>NUMBER(5,1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="44" name="GRD">
+      <Position>8</Position>
+      <DataType>CHAR(3)|0</DataType>
+      <DefaultExpression>&apos;가&apos;</DefaultExpression>
+    </column>
+    <column id="199" parent="44" name="REGDATE">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+    <index id="200" parent="44" name="SYS_C007228">
+      <ObjectId>22645</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-22.16:20:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-22.16:20:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>SJNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="201" parent="44" name="SYS_C007228">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-10-22.16:20:29</ModifiedTimestamp>
+      <ColNames>SJNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007228</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="202" parent="45" name="NAME">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="203" parent="45" name="KOR">
+      <Position>2</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="204" parent="45" name="ENG">
+      <Position>3</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="205" parent="45" name="MAT">
+      <Position>4</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="206" parent="45" name="TOT">
+      <Position>5</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="207" parent="45" name="AVGR">
+      <Position>6</Position>
+      <DataType>FLOAT(126)|0</DataType>
+    </column>
+    <column id="208" parent="45" name="GRD">
+      <Position>7</Position>
+      <DataType>VARCHAR2(5)|0</DataType>
+    </column>
+    <index id="209" parent="45" name="SYS_C008400">
+      <ObjectId>31391</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-03.09:51:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.09:51:06</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="210" parent="45" name="SYS_C008400">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-02-03.09:51:06</ModifiedTimestamp>
+      <ColNames>NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008400</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="211" parent="46" name="SJNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="46" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="46" name="KOR">
+      <Position>3</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="214" parent="46" name="ENG">
+      <Position>4</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="215" parent="46" name="MAT">
+      <Position>5</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="216" parent="46" name="TOT">
+      <Position>6</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="46" name="AVGR">
+      <Position>7</Position>
+      <DataType>FLOAT(126)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="218" parent="46" name="GRD">
+      <Position>8</Position>
+      <DataType>VARCHAR2(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="219" parent="46" name="SYS_C008346">
+      <ObjectId>31113</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-01-31.17:17:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-31.17:17:58</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>SJNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="220" parent="46" name="SYS_C008346">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-01-31.17:17:58</ModifiedTimestamp>
+      <ColNames>SJNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008346</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="221" parent="47" name="BRDNO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="222" parent="47" name="USERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="223" parent="47" name="BRDNO_FK">
+      <ModifiedTimestamp>2020-01-17.22:38:07</ModifiedTimestamp>
+      <ColNames>BRDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>RVDKDBOARD</RefTableName>
+      <RefKeyName>SYS_C007790</RefKeyName>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="224" parent="48" name="PSNGID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="225" parent="48" name="SURVIVED">
+      <Position>2</Position>
+      <DataType>NUMBER(22)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="226" parent="48" name="PCLASS">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="227" parent="48" name="NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="228" parent="48" name="SEX">
+      <Position>5</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="229" parent="48" name="AGE">
+      <Position>6</Position>
+      <DataType>NUMBER(22)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="230" parent="48" name="FARE">
+      <Position>7</Position>
+      <DataType>NUMBER(15,4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="48" name="EMBARKED">
+      <Position>8</Position>
+      <DataType>CHAR(15)|0</DataType>
+    </column>
+    <column id="232" parent="48" name="REGDATE">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>sysdate&#xd;
+</DefaultExpression>
+    </column>
+    <index id="233" parent="48" name="SYS_C007253">
+      <ObjectId>22737</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-23.16:59:27</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-23.16:59:27</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PSNGID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="234" parent="48" name="SYS_C007253">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-10-23.16:59:27</ModifiedTimestamp>
+      <ColNames>PSNGID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007253</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

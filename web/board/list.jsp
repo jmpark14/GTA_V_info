@@ -13,9 +13,9 @@
     PreparedStatement pstmt = null;
     ResultSet rs = null;
 
-    String countSQL = "select count(brdno) from SCOTT.RVDKDBOARD";
+    String countSQL = "select count(brdno) from SCOTT.GTABOARD";
 
-    String pagingSQL = "select * from (select bd.brdno, bd.title, bd.userid, bd.views, bd.regdate, bd.thumbs, rownum as rnum from (select brdno,title,userid,views,regdate, thumbs from SCOTT.RVDKDBOARD order by brdno desc) bd where rownum <= ?) bd2 where bd2.rnum >= ? ";
+    String pagingSQL = "select * from (select bd.brdno, bd.title, bd.userid, bd.views, bd.regdate, bd.thumbs, rownum as rnum from (select brdno,title,userid,views,regdate, thumbs from SCOTT.GTABOARD order by brdno desc) bd where rownum <= ?) bd2 where bd2.rnum >= ? ";
 
     List<gtaBoard> lists = null;
 
@@ -127,16 +127,30 @@
                     </tr>
                     </thead>
                     <tbody>
-                        <% for(gtaBoard b : lists) { %><%-- 동적배열에 저장된 값들(lists)을 요소별(b)로 계속 출력 --%>
+                        <% try {
+                            for(gtaBoard b : lists) { %><%-- 동적배열에 저장된 값들(lists)을 요소별(b)로 계속 출력 --%>
                         <tr>
                             <td><%=brdno-- %></td>
-                            <td><a href="view.jsp?brdno=<%=b.getBrdno()%>"><%b.getTitle();%></a></td>
+                            <td><a href="view.jsp?brdno=<%=b.getBrdno()%>"><%=b.getTitle()%></a></td>
                             <td><%=b.getUserid() %></td>
                             <td><%=b.getRegdate() %></td>
                             <td><%=b.getThumbs() %></td>
                             <td><%=b.getViews() %></td>
                         </tr>
-                        <% } %>
+                        <% }
+                        } catch (Exception ex) {
+                            ex.printStackTrace();
+                        }%>
+                        <%
+                            if (lists == null || lists.isEmpty()) {
+                                out.println("<tr><td></td>" +
+                                        "<td class=\"text-right\">등록된 게시물이 없습니다.</td>" +
+                                        "<td></td>" +
+                                        "<td></td>" +
+                                        "<td></td>" +
+                                        "<td></td><tr>");
+                            }
+                        %>
                     </tbody>
                 </table>
             </div>
