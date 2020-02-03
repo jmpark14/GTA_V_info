@@ -38,7 +38,7 @@
 
     //게시글이 30개를 넘기면 페이지를 ++함
     int perPage = 20;
-    int totalPage = bdcnt / perPage
+    int totalPage = bdcnt / perPage;
     if (bdcnt % perPage > 0) {
         ++totalPage;
     }
@@ -96,17 +96,90 @@
 <!DOCTYPE html>
 <html>
 <head lang="ko">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src = "https://use.fontawesome.com/2350369b5c.js"></script>
     <title>Grand Theft Auto V - 자유게시판</title>
 </head>
 <body>
 
 <div class="container">
     <%@include file="../layout/header.jsp"%>
-    <div id="main">
+    <div id="main" style="margin: 2% 0">
+        <div>
+            <i class="fas fa-comments-o fa-2x">자유게시판</i>
+        </div>
+        <div class="text-right"><%--글쓰기 아이콘--%>
+            <a href="write.jsp"><i class="fas fa-edit"></i></a>
+        </div>
+        <div class="row"><%--게시판--%>
+            <div class="col">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                        <th>추천</th>
+                        <th>조회</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <% for(gtaBoard b : lists) { %><%-- 동적배열에 저장된 값들(lists)을 요소별(b)로 계속 출력 --%>
+                        <tr>
+                            <td><%=brdno-- %></td>
+                            <td><a href="view.jsp?brdno=<%=b.getBrdno()%>"><%b.getTitle();%></a></td>
+                            <td><%=b.getUserid() %></td>
+                            <td><%=b.getRegdate() %></td>
+                            <td><%=b.getThumbs() %></td>
+                            <td><%=b.getViews() %></td>
+                        </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="text-right"> <!-- 글쓰기 버튼 -->
+            <button type="button" class="btn btn-primary" id="write">글쓰기</button>
+        </div>
 
+        <div align="center">
+            <% if (cPage > 10)
+                out.print("<sapn><a href='list.jsp?cpage=" + (startPage-1) + "'>이전</a>&nbsp;</span>"); %>
+            <% for (int i = startPage; i <= endPage; ++i) { %>
+            <% if (i > totalPage) break;
+                if (cPage == i) out.print("<span style='color:red'>" + i + "&nbsp;</span>"); // 현재 페이지에는 링크 x
+                else out.print("<span><a href='list.jsp?cpage=" + i + "'>" + i + "</a>&nbsp;</span>");
+            %>
+            <% } %>
+            <% if (endPage < totalPage)
+                out.print("<span>a href = 'list.jsp?cpage=" + (endPage+1) + "'>다음</a>&nbsp;</span>"); %>
+        </div>
+
+        <div class="form-group row justify-content-center"><!-- 게시물 검색 -->
+            <div class="w100">
+                <select class="form-control form-control" name="searchType" id="searchType">
+                    <option value="title">제목</option>
+                    <option value="content">본문</option>
+                    <option value="reg_id">작성자</option>
+                </select>
+            </div>
+            <div class="w300">
+                <input type="text" class="form-control form-control" name="keyword" id="keyword">
+            </div>
+            <div>
+                <button class="btn btn-primary" name="btnSearch" id="btnSearch">검색</button>
+            </div>
+        </div>
     </div>
     <%@include file="../layout/footer.jsp"%>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -12,7 +12,7 @@
 
 <div class="container" >
     <%@include file="layout/header.jsp"%>
-    <div id="main" style="margin-top: 2%">
+    <div id="main" style="margin: 2% 0">
         <div class="row">
             <div class="col-md-12">
                 <a href="https://www.rockstargames.com/kr/newswire/article/61357/GTA-Online-and-Red-Dead-Online-Have-a-Record-Breaking-Holiday-Season">
